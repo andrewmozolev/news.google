@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Google Sans Text';
+  font-weight: 400;
+  src: local('GoogleSansText-Regular'),
+    url('./assets/fonts/GoogleSansText-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Google Sans Text';
+  font-weight: 500;
+  src: local('GoogleSansText-Medium'),
+    url('./assets/fonts/GoogleSansText-Medium.ttf');
+}
+
+html {
+  font-family: 'Google Sans Text', 'Roboto', sans-serif;
+}
